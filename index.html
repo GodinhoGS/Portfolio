@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Site</title>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="logo">
+      <img src="logoportfolio.png" height="30px">
+
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+
+    <div class="backgroundum">
+      <img src="0_T8JofJXLszu_2USl.jpg">
+    </div>
+    <section id="home">
+      <div class="home-info">
+        <h2>Hello, i am</h2>
+        <div class="home-euimg">
+          <img src="imagemeu.PNG">
+        </div>
+        <span class="home-position">Trainee Developer</span>
+        <span class="home-resume">
+          Attending the Technical High School in Computer Science at Colégio COTEMIG,
+          I work at an INSS social security agency, as a mid-level intern, working both in support for insured using DATAPREV systems, and in the maintenance of machines and computers.
+        </span>
+
+        <button class="contact">
+          <a class="Contato" href="#contact">CONTACT</a>
+        </button>
+        <button class="curriculo">
+          <a class="Curriculo" href="currículo.pdf" download="">Get CV</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="eu.PNG">
+      </div>
+    </section>
+      <section id="projects">
+        <h2>Projetos</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="siteprojetoum.png">
+              </div>
+              <div class="project-info">
+                <h2>WebSites Modernos</h2>
+                <p>Criação de websites modernos responsivos para qualquer dispositivo.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="lojaonline.PNG">
+              </div>
+              <div class="project-info">
+                <h2>E-commerce</h2>
+                <p>Criação de lojas online de qualquer produto.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="mc_depo1.png">
+              </div>
+              <div class="project-info">
+                <h2>Sistemas completos</h2>
+                <p>Criação de sistemas completos desde o back-end até o front-end.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form action="https://formsubmit.co/gustavogodinhosoares@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false"/>                                 
+      <input type="hidden" name="_next" value="https://portfolio-juan.vercel.app/"/>
+      <input type="text"  required name="nome" placeholder="Digite seu nome" /> 
+      <input type="email" required placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button class="enviar" type="submit" value="Send">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="social">
+    <a class="fab fa-linkedin" href="https://www.linkedin.com/in/gustavo-soares-a388a0208/"></a>
+    <a class="fab fa-instagram" href="https://www.instagram.com/gsoaressz/">  </a>
+    <a class="fab fa-github" href="https://github.com/GodinhoGS"> </a>
+    </div>
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
